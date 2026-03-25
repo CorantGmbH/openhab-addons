@@ -101,6 +101,12 @@
 				<label>Radon</label>
 			</add-channel>
 		</instruction-set>
+		<instruction-set targetVersion="5">
+			<add-channel id="occupancy">
+				<type>airq:occupancy</type>
+				<label>Occupancy</label>
+			</add-channel>
+		</instruction-set>
 	</thing-type>
 
 </update:update-descriptions>

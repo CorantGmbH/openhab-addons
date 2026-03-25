@@ -82,6 +82,7 @@ The rw column is empty if the channel is only readable, w if the channel can be 
 | tvoc                      | Number:Dimensionless |    | VOC concentration                                                   |
 | virus_free                | Number:Dimensionless | r  | Virus-Free index in percent; the lower the index, the higher the potential virus risk. |
 | mold_free                 | Number:Dimensionless | r  | Mold-Free index in percent; the lower the index, the higher the potential mold risk. |
+| occupancy                 | Number               |    | Number of occupants detected                                        |
 | uptime                    | Number:Time          |    | uptime in seconds                                                   |
 | wifi                      | Switch               |    | WLAN on or off                                                      |
 | ssid                      | String               |    | WLAN SSID                                                           |
