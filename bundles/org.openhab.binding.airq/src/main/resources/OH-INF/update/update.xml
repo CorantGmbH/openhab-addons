@@ -101,6 +101,188 @@
 				<label>Radon</label>
 			</add-channel>
 		</instruction-set>
+		<instruction-set targetVersion="5">
+			<add-channel id="c2h4o">
+				<type>airq:c2h4o</type>
+			</add-channel>
+			<add-channel id="c2h4o_maxerr">
+				<type>airq:c2h4o_maxerr</type>
+			</add-channel>
+			<add-channel id="nh3_MR100">
+				<type>airq:nh3_MR100</type>
+			</add-channel>
+			<add-channel id="nh3_MR100_maxerr">
+				<type>airq:nh3_MR100_maxerr</type>
+			</add-channel>
+			<add-channel id="ash3">
+				<type>airq:ash3</type>
+			</add-channel>
+			<add-channel id="ash3_maxerr">
+				<type>airq:ash3_maxerr</type>
+			</add-channel>
+			<add-channel id="br2">
+				<type>airq:br2</type>
+			</add-channel>
+			<add-channel id="br2_maxerr">
+				<type>airq:br2_maxerr</type>
+			</add-channel>
+			<add-channel id="ch4s">
+				<type>airq:ch4s</type>
+			</add-channel>
+			<add-channel id="ch4s_maxerr">
+				<type>airq:ch4s_maxerr</type>
+			</add-channel>
+			<add-channel id="cl2_M20">
+				<type>airq:cl2_M20</type>
+			</add-channel>
+			<add-channel id="cl2_M20_maxerr">
+				<type>airq:cl2_M20_maxerr</type>
+			</add-channel>
+			<add-channel id="clo2">
+				<type>airq:clo2</type>
+			</add-channel>
+			<add-channel id="clo2_maxerr">
+				<type>airq:clo2_maxerr</type>
+			</add-channel>
+			<add-channel id="cs2">
+				<type>airq:cs2</type>
+			</add-channel>
+			<add-channel id="cs2_maxerr">
+				<type>airq:cs2_maxerr</type>
+			</add-channel>
+			<add-channel id="c2h4">
+				<type>airq:c2h4</type>
+			</add-channel>
+			<add-channel id="c2h4_maxerr">
+				<type>airq:c2h4_maxerr</type>
+			</add-channel>
+			<add-channel id="ethanol">
+				<type>airq:ethanol</type>
+			</add-channel>
+			<add-channel id="ethanol_maxerr">
+				<type>airq:ethanol_maxerr</type>
+			</add-channel>
+			<add-channel id="ch2o_M10">
+				<type>airq:ch2o_M10</type>
+			</add-channel>
+			<add-channel id="ch2o_M10_maxerr">
+				<type>airq:ch2o_M10_maxerr</type>
+			</add-channel>
+			<add-channel id="f2">
+				<type>airq:f2</type>
+			</add-channel>
+			<add-channel id="f2_maxerr">
+				<type>airq:f2_maxerr</type>
+			</add-channel>
+			<add-channel id="hcl">
+				<type>airq:hcl</type>
+			</add-channel>
+			<add-channel id="hcl_maxerr">
+				<type>airq:hcl_maxerr</type>
+			</add-channel>
+			<add-channel id="hcn">
+				<type>airq:hcn</type>
+			</add-channel>
+			<add-channel id="hcn_maxerr">
+				<type>airq:hcn_maxerr</type>
+			</add-channel>
+			<add-channel id="hf">
+				<type>airq:hf</type>
+			</add-channel>
+			<add-channel id="hf_maxerr">
+				<type>airq:hf_maxerr</type>
+			</add-channel>
+			<add-channel id="h2_M1000">
+				<type>airq:h2_M1000</type>
+			</add-channel>
+			<add-channel id="h2_M1000_maxerr">
+				<type>airq:h2_M1000_maxerr</type>
+			</add-channel>
+			<add-channel id="h2o2">
+				<type>airq:h2o2</type>
+			</add-channel>
+			<add-channel id="h2o2_maxerr">
+				<type>airq:h2o2_maxerr</type>
+			</add-channel>
+			<add-channel id="ph3">
+				<type>airq:ph3</type>
+			</add-channel>
+			<add-channel id="ph3_maxerr">
+				<type>airq:ph3_maxerr</type>
+			</add-channel>
+			<add-channel id="sih4">
+				<type>airq:sih4</type>
+			</add-channel>
+			<add-channel id="sih4_maxerr">
+				<type>airq:sih4_maxerr</type>
+			</add-channel>
+			<add-channel id="no_M250">
+				<type>airq:no_M250</type>
+			</add-channel>
+			<add-channel id="no_M250_maxerr">
+				<type>airq:no_M250_maxerr</type>
+			</add-channel>
+			<add-channel id="n2o">
+				<type>airq:n2o</type>
+			</add-channel>
+			<add-channel id="n2o_maxerr">
+				<type>airq:n2o_maxerr</type>
+			</add-channel>
+			<add-channel id="acid_M100">
+				<type>airq:acid_M100</type>
+			</add-channel>
+			<add-channel id="acid_M100_maxerr">
+				<type>airq:acid_M100_maxerr</type>
+			</add-channel>
+			<add-channel id="tvoc_ionsc">
+				<type>airq:tvoc_ionsc</type>
+			</add-channel>
+			<add-channel id="tvoc_ionsc_maxerr">
+				<type>airq:tvoc_ionsc_maxerr</type>
+			</add-channel>
+			<add-channel id="ch4_MIPEX">
+				<type>airq:ch4_MIPEX</type>
+			</add-channel>
+			<add-channel id="ch4_MIPEX_maxerr">
+				<type>airq:ch4_MIPEX_maxerr</type>
+			</add-channel>
+			<add-channel id="c3h8_MIPEX">
+				<type>airq:c3h8_MIPEX</type>
+			</add-channel>
+			<add-channel id="c3h8_MIPEX_maxerr">
+				<type>airq:c3h8_MIPEX_maxerr</type>
+			</add-channel>
+			<add-channel id="r32">
+				<type>airq:r32</type>
+			</add-channel>
+			<add-channel id="r32_maxerr">
+				<type>airq:r32_maxerr</type>
+			</add-channel>
+			<add-channel id="r454b">
+				<type>airq:r454b</type>
+			</add-channel>
+			<add-channel id="r454b_maxerr">
+				<type>airq:r454b_maxerr</type>
+			</add-channel>
+			<add-channel id="r454c">
+				<type>airq:r454c</type>
+			</add-channel>
+			<add-channel id="r454c_maxerr">
+				<type>airq:r454c_maxerr</type>
+			</add-channel>
+			<add-channel id="pressure_rel">
+				<type>airq:pressure_rel</type>
+			</add-channel>
+			<add-channel id="pressure_rel_maxerr">
+				<type>airq:pressure_rel_maxerr</type>
+			</add-channel>
+			<add-channel id="sound_max">
+				<type>airq:sound_max</type>
+			</add-channel>
+			<add-channel id="sound_max_maxerr">
+				<type>airq:sound_max_maxerr</type>
+			</add-channel>
+		</instruction-set>
 	</thing-type>
 
 </update:update-descriptions>

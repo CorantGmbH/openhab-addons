@@ -87,6 +87,36 @@ The rw column is empty if the channel is only readable, w if the channel can be 
 | tvoc                      | Number:Dimensionless |    | VOC concentration                                                   |
 | virus_free                | Number:Dimensionless | r  | Virus-Free index in percent; the lower the index, the higher the potential virus risk. |
 | mold_free                 | Number:Dimensionless | r  | Mold-Free index in percent; the lower the index, the higher the potential mold risk. |
+| c2h4o                     | Number:Density       |    | Acetaldehyde (C₂H₄O) concentration                                 |
+| nh3_MR100                 | Number:Density       |    | Ammonia (NH₃) concentration                                        |
+| ash3                      | Number:Density       |    | Arsine (AsH₃) concentration                                        |
+| br2                       | Number:Density       |    | Bromine (Br₂) concentration                                        |
+| ch4s                      | Number:Density       |    | Methanethiol (CH₄S) concentration                                  |
+| cl2_M20                   | Number:Density       |    | Chlorine (Cl₂) concentration                                       |
+| clo2                      | Number:Density       |    | Chlorine Dioxide (ClO₂) concentration                              |
+| cs2                       | Number:Density       |    | Carbon Disulfide (CS₂) concentration                               |
+| c2h4                      | Number:Density       |    | Ethylene (C₂H₄) concentration                                     |
+| ethanol                   | Number:Density       |    | Ethanol (C₂H₅OH) concentration                                    |
+| ch2o_M10                  | Number:Density       |    | Formaldehyde (CH₂O) concentration                                  |
+| f2                        | Number:Density       |    | Fluorine (F₂) concentration                                        |
+| hcl                       | Number:Density       |    | Hydrochloric Acid (HCl) concentration                              |
+| hcn                       | Number:Density       |    | Hydrogen Cyanide (HCN) concentration                               |
+| hf                        | Number:Density       |    | Hydrogen Fluoride (HF) concentration                               |
+| h2_M1000                  | Number:Density       |    | Hydrogen (H₂) concentration                                        |
+| h2o2                      | Number:Density       |    | Hydrogen Peroxide (H₂O₂) concentration                            |
+| ph3                       | Number:Density       |    | Phosphine (PH₃) concentration                                      |
+| sih4                      | Number:Density       |    | Silane (SiH₄) concentration                                        |
+| no_M250                   | Number:Density       |    | Nitrogen Monoxide (NO) concentration                                |
+| n2o                       | Number:Density       |    | Nitrous Oxide (N₂O) concentration                                  |
+| acid_M100                 | Number:Dimensionless |    | Organic Acid concentration                                          |
+| tvoc_ionsc                | Number:Dimensionless |    | Industrial VOC concentration                                        |
+| ch4_MIPEX                 | Number:Dimensionless |    | Methane (CH₄) concentration                                        |
+| c3h8_MIPEX                | Number:Dimensionless |    | Propane (C₃H₈) concentration                                       |
+| r32                       | Number:Dimensionless |    | Refrigerant R-32 concentration                                     |
+| r454b                     | Number:Dimensionless |    | Refrigerant R-454B concentration                                   |
+| r454c                     | Number:Dimensionless |    | Refrigerant R-454C concentration                                   |
+| pressure_rel              | Number:Pressure      |    | Relative (sea-level adjusted) Pressure                              |
+| sound_max                 | Number:Dimensionless |    | Maximum Noise level                                                 |
 | uptime                    | Number:Time          |    | uptime in seconds                                                   |
 | wifi                      | Switch               |    | WLAN on or off                                                      |
 | ssid                      | String               |    | WLAN SSID                                                           |
@@ -179,6 +209,36 @@ Number:Dimensionless  airQ_voc                    "VOC concentration"           
 Number:Time           airQ_uptime                 "Uptime"                                {channel="airq:airq:1:uptime"}
 Number:Dimensionless  airQ_Virus_free             "Virus-Free index"                      {unit="%",channel="airq:airq:1:virus_free"}
 Number:Dimensionless  airQ_Mold_free              "Mold-Free index"                       {unit="%",channel="airq:airq:1:mold_free"}
+Number:Density        airQ_c2h4o                  "Acetaldehyde"                          {channel="airq:airq:1:c2h4o"}
+Number:Density        airQ_nh3_MR100              "Ammonia"                               {channel="airq:airq:1:nh3_MR100"}
+Number:Density        airQ_ash3                   "Arsine"                                {channel="airq:airq:1:ash3"}
+Number:Density        airQ_br2                    "Bromine"                               {channel="airq:airq:1:br2"}
+Number:Density        airQ_ch4s                   "Methanethiol"                          {channel="airq:airq:1:ch4s"}
+Number:Density        airQ_cl2_M20                "Chlorine"                              {channel="airq:airq:1:cl2_M20"}
+Number:Density        airQ_clo2                   "Chlorine Dioxide"                      {channel="airq:airq:1:clo2"}
+Number:Density        airQ_cs2                    "Carbon Disulfide"                      {channel="airq:airq:1:cs2"}
+Number:Density        airQ_c2h4                   "Ethylene"                              {channel="airq:airq:1:c2h4"}
+Number:Density        airQ_ethanol                "Ethanol"                               {channel="airq:airq:1:ethanol"}
+Number:Density        airQ_ch2o_M10               "Formaldehyde"                          {channel="airq:airq:1:ch2o_M10"}
+Number:Density        airQ_f2                     "Fluorine"                              {channel="airq:airq:1:f2"}
+Number:Density        airQ_hcl                    "Hydrochloric Acid"                     {channel="airq:airq:1:hcl"}
+Number:Density        airQ_hcn                    "Hydrogen Cyanide"                      {channel="airq:airq:1:hcn"}
+Number:Density        airQ_hf                     "Hydrogen Fluoride"                     {channel="airq:airq:1:hf"}
+Number:Density        airQ_h2_M1000               "Hydrogen"                              {channel="airq:airq:1:h2_M1000"}
+Number:Density        airQ_h2o2                   "Hydrogen Peroxide"                     {channel="airq:airq:1:h2o2"}
+Number:Density        airQ_ph3                    "Phosphine"                             {channel="airq:airq:1:ph3"}
+Number:Density        airQ_sih4                   "Silane"                                {channel="airq:airq:1:sih4"}
+Number:Density        airQ_no_M250                "Nitrogen Monoxide"                     {channel="airq:airq:1:no_M250"}
+Number:Density        airQ_n2o                    "Nitrous Oxide"                         {channel="airq:airq:1:n2o"}
+Number:Dimensionless  airQ_acid_M100              "Organic Acid"                          {channel="airq:airq:1:acid_M100"}
+Number:Dimensionless  airQ_tvoc_ionsc             "Industrial VOC"                        {channel="airq:airq:1:tvoc_ionsc"}
+Number:Dimensionless  airQ_ch4_MIPEX              "Methane"                               {channel="airq:airq:1:ch4_MIPEX"}
+Number:Dimensionless  airQ_c3h8_MIPEX             "Propane"                               {channel="airq:airq:1:c3h8_MIPEX"}
+Number:Dimensionless  airQ_r32                    "Refrigerant R-32"                      {channel="airq:airq:1:r32"}
+Number:Dimensionless  airQ_r454b                  "Refrigerant R-454B"                    {channel="airq:airq:1:r454b"}
+Number:Dimensionless  airQ_r454c                  "Refrigerant R-454C"                    {channel="airq:airq:1:r454c"}
+Number:Pressure       airQ_pressure_rel           "Relative Pressure"                     {channel="airq:airq:1:pressure_rel"}
+Number:Dimensionless  airQ_sound_max              "Maximum Noise"                         {channel="airq:airq:1:sound_max"}
 
 Number:Dimensionless  airQ_cnt03_maxerr        "Maximum error of Fine Dust >0,3 µm"             {channel="airq:airq:1:cnt0_3_maxerr"}
 Number:Dimensionless  airQ_cnt05_maxerr        "Maximum error of Fine Dust >0,5 µm"             {channel="airq:airq:1:cnt0_5_maxerr"}
@@ -203,6 +263,36 @@ Number:Dimensionless  airQ_temperature_maxerr  "Maximum error of Temperature"   
 Number:Dimensionless  airQ_voc_maxerr          "Maximum error of VOC concentration"             {channel="airq:airq:1:tvoc_maxerr"}
 Number:Dimensionless  airQ_virus_free_maxerr   "Maximum error of Virus-Free"                    {unit="%",channel="airq:airq:1:virus_free_maxerr"}
 Number:Dimensionless  airQ_mold_free_maxerr    "Maximum error of Mold-Free"                     {unit="%",channel="airq:airq:1:mold_free_maxerr"}
+Number:Dimensionless  airQ_c2h4o_maxerr        "Maximum error of Acetaldehyde"                  {channel="airq:airq:1:c2h4o_maxerr"}
+Number:Dimensionless  airQ_nh3_MR100_maxerr    "Maximum error of Ammonia"                       {channel="airq:airq:1:nh3_MR100_maxerr"}
+Number:Dimensionless  airQ_ash3_maxerr         "Maximum error of Arsine"                        {channel="airq:airq:1:ash3_maxerr"}
+Number:Dimensionless  airQ_br2_maxerr          "Maximum error of Bromine"                       {channel="airq:airq:1:br2_maxerr"}
+Number:Dimensionless  airQ_ch4s_maxerr         "Maximum error of Methanethiol"                  {channel="airq:airq:1:ch4s_maxerr"}
+Number:Dimensionless  airQ_cl2_M20_maxerr      "Maximum error of Chlorine"                      {channel="airq:airq:1:cl2_M20_maxerr"}
+Number:Dimensionless  airQ_clo2_maxerr         "Maximum error of Chlorine Dioxide"              {channel="airq:airq:1:clo2_maxerr"}
+Number:Dimensionless  airQ_cs2_maxerr          "Maximum error of Carbon Disulfide"              {channel="airq:airq:1:cs2_maxerr"}
+Number:Dimensionless  airQ_c2h4_maxerr         "Maximum error of Ethylene"                      {channel="airq:airq:1:c2h4_maxerr"}
+Number:Dimensionless  airQ_ethanol_maxerr      "Maximum error of Ethanol"                       {channel="airq:airq:1:ethanol_maxerr"}
+Number:Dimensionless  airQ_ch2o_M10_maxerr     "Maximum error of Formaldehyde"                  {channel="airq:airq:1:ch2o_M10_maxerr"}
+Number:Dimensionless  airQ_f2_maxerr           "Maximum error of Fluorine"                      {channel="airq:airq:1:f2_maxerr"}
+Number:Dimensionless  airQ_hcl_maxerr          "Maximum error of Hydrochloric Acid"             {channel="airq:airq:1:hcl_maxerr"}
+Number:Dimensionless  airQ_hcn_maxerr          "Maximum error of Hydrogen Cyanide"              {channel="airq:airq:1:hcn_maxerr"}
+Number:Dimensionless  airQ_hf_maxerr           "Maximum error of Hydrogen Fluoride"             {channel="airq:airq:1:hf_maxerr"}
+Number:Dimensionless  airQ_h2_M1000_maxerr     "Maximum error of Hydrogen"                      {channel="airq:airq:1:h2_M1000_maxerr"}
+Number:Dimensionless  airQ_h2o2_maxerr         "Maximum error of Hydrogen Peroxide"             {channel="airq:airq:1:h2o2_maxerr"}
+Number:Dimensionless  airQ_ph3_maxerr          "Maximum error of Phosphine"                     {channel="airq:airq:1:ph3_maxerr"}
+Number:Dimensionless  airQ_sih4_maxerr         "Maximum error of Silane"                        {channel="airq:airq:1:sih4_maxerr"}
+Number:Dimensionless  airQ_no_M250_maxerr      "Maximum error of Nitrogen Monoxide"             {channel="airq:airq:1:no_M250_maxerr"}
+Number:Dimensionless  airQ_n2o_maxerr          "Maximum error of Nitrous Oxide"                 {channel="airq:airq:1:n2o_maxerr"}
+Number:Dimensionless  airQ_acid_M100_maxerr    "Maximum error of Organic Acid"                  {channel="airq:airq:1:acid_M100_maxerr"}
+Number:Dimensionless  airQ_tvoc_ionsc_maxerr   "Maximum error of Industrial VOC"                {channel="airq:airq:1:tvoc_ionsc_maxerr"}
+Number:Dimensionless  airQ_ch4_MIPEX_maxerr    "Maximum error of Methane"                       {channel="airq:airq:1:ch4_MIPEX_maxerr"}
+Number:Dimensionless  airQ_c3h8_MIPEX_maxerr   "Maximum error of Propane"                       {channel="airq:airq:1:c3h8_MIPEX_maxerr"}
+Number:Dimensionless  airQ_r32_maxerr          "Maximum error of Refrigerant R-32"              {channel="airq:airq:1:r32_maxerr"}
+Number:Dimensionless  airQ_r454b_maxerr        "Maximum error of Refrigerant R-454B"            {channel="airq:airq:1:r454b_maxerr"}
+Number:Dimensionless  airQ_r454c_maxerr        "Maximum error of Refrigerant R-454C"            {channel="airq:airq:1:r454c_maxerr"}
+Number:Dimensionless  airQ_pressure_rel_maxerr "Maximum error of Relative Pressure"             {channel="airq:airq:1:pressure_rel_maxerr"}
+Number:Dimensionless  airQ_sound_max_maxerr    "Maximum error of Maximum Noise"                 {channel="airq:airq:1:sound_max_maxerr"}
 
 Switch airQ_wifi                    "WLAN on or off"                                 {channel="airq:airq:1:wifi"}
 String airQ_SSID                    "WLAN SSID"                                      {channel="airq:airq:1:ssid"}

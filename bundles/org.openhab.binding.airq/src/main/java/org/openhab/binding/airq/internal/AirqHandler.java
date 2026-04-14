@@ -499,6 +499,36 @@ public class AirqHandler extends BaseThingHandler {
                 processType(decObj, "tvoc", "tvoc", "pairPPB");
                 processType(decObj, "virus", "virus_free", "pair");
                 processType(decObj, "mold", "mold_free", "pair");
+                processType(decObj, "c2h4o", "c2h4o", "pair");
+                processType(decObj, "nh3_MR100", "nh3_MR100", "pair");
+                processType(decObj, "ash3", "ash3", "pair");
+                processType(decObj, "br2", "br2", "pair");
+                processType(decObj, "ch4s", "ch4s", "pair");
+                processType(decObj, "cl2_M20", "cl2_M20", "pair");
+                processType(decObj, "clo2", "clo2", "pair");
+                processType(decObj, "cs2", "cs2", "pair");
+                processType(decObj, "c2h4", "c2h4", "pair");
+                processType(decObj, "ethanol", "ethanol", "pair");
+                processType(decObj, "ch2o_M10", "ch2o_M10", "pair");
+                processType(decObj, "f2", "f2", "pair");
+                processType(decObj, "hcl", "hcl", "pair");
+                processType(decObj, "hcn", "hcn", "pair");
+                processType(decObj, "hf", "hf", "pair");
+                processType(decObj, "h2_M1000", "h2_M1000", "pair");
+                processType(decObj, "h2o2", "h2o2", "pair");
+                processType(decObj, "ph3", "ph3", "pair");
+                processType(decObj, "sih4", "sih4", "pair");
+                processType(decObj, "no_M250", "no_M250", "pair");
+                processType(decObj, "n2o", "n2o", "pair");
+                processType(decObj, "acid_M100", "acid_M100", "pairPPB");
+                processType(decObj, "tvoc_ionsc", "tvoc_ionsc", "pairPPB");
+                processType(decObj, "ch4_MIPEX", "ch4_MIPEX", "pair");
+                processType(decObj, "c3h8_MIPEX", "c3h8_MIPEX", "pair");
+                processType(decObj, "r32", "r32", "pair");
+                processType(decObj, "r454b", "r454b", "pair");
+                processType(decObj, "r454c", "r454c", "pair");
+                processType(decObj, "pressure_rel", "pressure_rel", "pair");
+                processType(decObj, "sound_max", "sound_max", "pairDB");
 
                 updateStatus(ThingStatus.ONLINE);
             } catch (JsonSyntaxException e) {
