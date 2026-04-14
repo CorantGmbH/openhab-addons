@@ -49,6 +49,7 @@
 			<channel id="uptime" typeId="uptime"/>
 			<channel id="virus_free" typeId="virus_free"/>
 			<channel id="mold_free" typeId="mold_free"/>
+			<channel id="occupancy" typeId="occupancy"/>
 
 			<!-- Maximum error -->
 			<channel id="fineDustCnt00_3_maxerr" typeId="cnt0_3_maxerr"/>
@@ -125,7 +126,7 @@
 			<property name="sensorList">Unknown sensor list</property>
 			<property name="sensorInfo">No info about sensors</property>
 			<property name="industry">No industry info</property>
-			<property name="thingTypeVersion">4</property>
+			<property name="thingTypeVersion">5</property>
 		</properties>
 
 		<config-description>
@@ -373,6 +374,12 @@
 		<item-type unitHint="%">Number:Dimensionless</item-type>
 		<label>Mold-Free Index</label>
 		<state readOnly="true" pattern="%.2f %unit%"></state>
+	</channel-type>
+
+	<channel-type id="occupancy" advanced="false">
+		<item-type>Number</item-type>
+		<label>Occupancy</label>
+		<state readOnly="true" pattern="%.0f"></state>
 	</channel-type>
 
 	<!-- Maximum error -->

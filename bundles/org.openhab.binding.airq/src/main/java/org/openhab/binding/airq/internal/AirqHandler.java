@@ -499,6 +499,7 @@ public class AirqHandler extends BaseThingHandler {
                 processType(decObj, "tvoc", "tvoc", "pairPPB");
                 processType(decObj, "virus", "virus_free", "pair");
                 processType(decObj, "mold", "mold_free", "pair");
+                processType(decObj, "occupancy", "occupancy", "number");
 
                 updateStatus(ThingStatus.ONLINE);
             } catch (JsonSyntaxException e) {
